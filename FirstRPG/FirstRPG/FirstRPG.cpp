@@ -1,7 +1,7 @@
 #include "stdafx.h"
 int main(int argc, char *argv[]) {
 	bool quit = false;
-
+	bool x = false;
 	SDL_Init(SDL_INIT_EVERYTHING);
 	SDL_Window* window = NULL;
 	window = SDL_CreateWindow("My first RPG",100,100,600,400,SDL_WINDOW_SHOWN);
